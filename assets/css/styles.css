@@ -651,6 +651,13 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
 }
 
+.projects__description {
+  text-align: justify;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  text-justify: inter-word;
+}
+
 .projects__icon{
   display: block;
   font-size: 1.5rem;
@@ -1372,6 +1379,14 @@ img {
 
   .project__data{
     padding-top: .8rem;
+  }
+
+  .projects__image {
+    width: 100%;
+    height: 250px; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+    border-radius: .25rem;
+    margin-bottom: 15px;
   }
 
   .footer__container{
